@@ -24,8 +24,8 @@ export default function BaseProductCard({
   };
 
   return (
-    <div className="bg-white p-4 rounded-lg shadow hover:shadow-md transition">
-      <div className="relative h-48 mb-3">
+    <div className="bg-white p-4 rounded-lg shadow hover:shadow-md transition w-full max-w-sm mx-auto">
+      <div className="relative h-48 mb-3 ">
         <Image
           src={image}
           alt={title}
