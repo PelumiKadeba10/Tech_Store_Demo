@@ -2,6 +2,7 @@
 
 import { FaShoppingCart } from "react-icons/fa";
 import { useToast } from "../../../hooks/useToast";
+import Image from 'next/image';
 
 interface BaseProductCardProps {
   title: string;
@@ -24,12 +25,15 @@ export default function BaseProductCard({
 
   return (
     <div className="bg-white p-4 rounded-lg shadow hover:shadow-md transition">
-      <img
-        src={image}
-        alt={title}
-        loading="lazy"
-        className="w-full h-48 object-cover mb-3 rounded"
-      />
+      <div className="relative h-48 mb-3">
+        <Image
+          src={image}
+          alt={title}
+          fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          className="object-cover rounded"
+        />
+      </div>
       <h3 className="text-lg font-semibold mb-1">{title}</h3>
       <div className="mb-3">
         {oldPrice ? (

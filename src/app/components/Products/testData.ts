@@ -2,234 +2,117 @@ export const productsData: Record<
   string,
   Array<{ title: string; price: string; image: string; oldPrice?: string }>
 > = {
-    phones : [
-      {
-        title: "iPhone 14 Pro",
-        price: "$999",
-        image: "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-1.jpg",
-      },
-      {
-        title: "Samsung Galaxy S22",
-        price: "$849",
-        image: "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s22-5g-1.jpg",
-      },
-      {
-        title: "Google Pixel 7",
-        price: "$599",
-        image: "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-7-1.jpg",
-      },
-      {
-        title: "OnePlus 10 Pro",
-        price: "$899",
-        image: "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-10-pro-1.jpg",
-      },
-      {
-        title: "Xiaomi Mi 11",
-        price: "$749",
-        image: "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi-11-1.jpg",
-      },
-      {
-        title: "Sony Xperia 1 III",
-        price: "$1,199",
-        image: "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-1-iii-1.jpg",
-      },
-      {
-        title: "Huawei P50 Pro",
-        price: "$1,099",
-        image: "https://fdn2.gsmarena.com/vv/pics/huawei/huawei-p50-pro-1.jpg",
-      },
-      {
-        title: "Motorola Edge 20 Pro",
-        price: "$699",
-        image: "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-edge-20-pro-1.jpg",
-      },
-      {
-        title: "Nokia 8.3 5G",
-        price: "$699",
-        image: "https://fdn2.gsmarena.com/vv/pics/nokia/nokia-8-3-5g-1.jpg",
-      },
-      {
-        title: "Asus ROG Phone 5",
-        price: "$999",
-        image: "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-phone-5-1.jpg",
-      },
-      {
-        title: "Realme GT 5G",
-        price: "$599",
-        image: "https://fdn2.gsmarena.com/vv/pics/realme/realme-gt-5g-1.jpg",
-      },
-      {
-        title: "Oppo Find X3 Pro",
-        price: "$1,149",
-        image: "https://fdn2.gsmarena.com/vv/pics/oppo/oppo-find-x3-pro-1.jpg",
-      },
-    ],
-    laptops: [
-      {
-        title: "MacBook Air M2",
-        price: "$1,199",
-        image: "https://fdn2.gsmarena.com/vv/pics/apple/apple-macbook-air-m2-1.jpg",
-      },
-      {
-        title: "Dell XPS 13",
-        price: "$999",
-        image: "https://fdn2.gsmarena.com/vv/pics/dell/dell-xps-13-2024-1.jpg",
-      },
-      {
-        title: "HP Spectre x360",
-        price: "$1,299",
-        image: "https://fdn2.gsmarena.com/vv/pics/hp/hp-spectre-x360-1.jpg",
-      },
-      {
-        title: "Lenovo ThinkPad X1 Carbon",
-        price: "$1,499",
-        image: "https://fdn2.gsmarena.com/vv/pics/lenovo/lenovo-thinkpad-x1-carbon-1.jpg",
-      },
-      {
-        title: "Asus ZenBook 14",
-        price: "$899",
-        image: "https://fdn2.gsmarena.com/vv/pics/asus/asus-zenbook-14-1.jpg",
-      },
-      {
-        title: "Microsoft Surface Laptop 5",
-        price: "$1,099",
-        image: "https://fdn2.gsmarena.com/vv/pics/microsoft/microsoft-surface-laptop-5-1.jpg",
-      },
-      {
-        title: "Acer Swift 5",
-        price: "$999",
-        image: "https://fdn2.gsmarena.com/vv/pics/acer/acer-swift-5-1.jpg",
-      },
-      {
-        title: "Razer Blade 15",
-        price: "$1,799",
-        image: "https://fdn2.gsmarena.com/vv/pics/razer/razer-blade-15-1.jpg",
-      },
-      {
-        title: "LG Gram 17",
-        price: "$1,599",
-        image: "https://fdn2.gsmarena.com/vv/pics/lg/lg-gram-17-1.jpg",
-      },
-      {
-        title: "Dell Inspiron 14 Plus",
-        price: "$849",
-        image: "https://fdn2.gsmarena.com/vv/pics/dell/dell-inspiron-14-plus-1.jpg",
-      },
-    ], 
-  
-    accessories : [
+  phones: [
+    {
+      title: "iPhone 14 Pro",
+      price: "$999",
+      image: "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-1.jpg",
+    },
+    {
+      title: "Samsung Galaxy S22",
+      price: "$849",
+      image: "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s22-5g-1.jpg",
+    },
+    {
+      title: "Google Pixel 7",
+      price: "$599",
+      image: "https://m.media-amazon.com/images/I/51f4A6Tr8zL._AC_SR1000,1000_.jpg",
+    },
+    {
+      title: "OnePlus 10 Pro",
+      price: "$899",
+      image: "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-10-pro-1.jpg",
+    },
+    {
+      title: "Xiaomi Mi 11",
+      price: "$749",
+      image: "https://images-cdn.ubuy.co.in/63b04c4f26f7ee36833ef202-xiaomi-mi-11-5g-128gb-8gb-ram-china.jpg",
+    },
+  ],
+  laptops: [
+    {
+      title: "MacBook Air M2",
+      price: "$1,199",
+      image: "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/46/2679312/2.jpg?4011",
+    },
+    {
+      title: "Dell XPS 13",
+      price: "$999",
+      image: "https://m.media-amazon.com/images/I/710EGJBdIML._AC_SL1500_.jpg",
+    },
+    {
+      title: "HP Spectre x360",
+      price: "$1,299",
+      image: "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08393284.png",
+    },
+    {
+      title: "Lenovo ThinkPad X1 Carbon",
+      price: "$1,499",
+      image: "https://www.lenovo.com/medias/lenovo-laptop-thinkpad-x1-carbon-gen-9-subseries-hero.png?context=bWFzdGVyfHJvb3R8MTY0NzQ3fGltYWdlL3BuZ3xoYjAvaDg3LzE0MzE3NjYxNjYyNDMwLnBuZ3w1OGE1ZGIwYjA3YjE2YjI4ZGM1YjYxZTU3YjA2YjM2YjYzYjM1YjY5YjY4YzY0ZGMzYjU5YjU3YzQ4YjY0YjY3",
+    },
+    {
+      title: "Asus ZenBook 14",
+      price: "$899",
+      image: "https://dlcdnwebimgs.asus.com/gain/8d8f7c9e-9d5e-4f1f-9b6b-3e5a5c3a4f7a/",
+    },
+  ],
+  accessories: [
     {
       title: "AirPods Pro",
       price: "$249",
-      image: "https://fdn2.gsmarena.com/vv/pics/apple/apple-airpods-pro-1.jpg",
+      image: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MWP22?wid=2000&hei=2000&fmt=jpeg",
     },
     {
-      title: "Anker Power Bank",
-      price: "$59",
-      image: "https://fdn2.gsmarena.com/vv/pics/anker/anker-power-bank-1.jpg",
+      title: "Samsung Galaxy Watch 5",
+      price: "$299",
+      image: "https://images.samsung.com/is/image/samsung/p6pim/levant/2208/gallery/levant-galaxy-watch5-44mm-sm-r910nzaamea-533591234",
     },
     {
       title: "Logitech MX Master 3",
       price: "$99",
-      image: "https://fdn2.gsmarena.com/vv/pics/logitech/logitech-mx-master-3-1.jpg",
+      image: "https://resource.logitech.com/w_1200,h_630,c_limit,q_auto,f_auto,dpr_auto/d_transparent.gif/content/dam/logitech/en/products/mice/mx-master-3/gallery/mx-master-3-top-view.png",
     },
     {
-      title: "Samsung T7 Portable SSD",
-      price: "$139",
-      image: "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-t7-ssd-1.jpg",
+      title: "Anker PowerCore 20000",
+      price: "$65",
+      image: "https://cdn.anker.com/imagecatalog/product/2019/10004/anker-powercore-20000.jpg",
     },
     {
-      title: "Sony WH-1000XM4 Headphones",
-      price: "$349",
-      image: "https://fdn2.gsmarena.com/vv/pics/sony/sony-wh-1000xm4-1.jpg",
+      title: "Sony WH-1000XM5",
+      price: "$399",
+      image: "https://www.sony.com/image/0e11748b2bb268a377f64c67a85e2bc4?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF",
     },
-    {
-      title: "Apple Magic Keyboard",
-      price: "$99",
-      image: "https://fdn2.gsmarena.com/vv/pics/apple/apple-magic-keyboard-1.jpg",
-    },
-    {
-      title: "Dell UltraSharp Monitor",
-      price: "$499",
-      image: "https://fdn2.gsmarena.com/vv/pics/dell/dell-ultrasharp-monitor-1.jpg",
-    },
-    {
-      title: "HP USB-C Docking Station",
-      price: "$149",
-      image: "https://fdn2.gsmarena.com/vv/pics/hp/hp-usb-c-docking-station-1.jpg",
-    },
-    {
-      title: "Amazon Echo Dot (4th Gen)",
-      price: "$49",
-      image: "https://fdn2.gsmarena.com/vv/pics/amazon/amazon-echo-dot-4th-gen-1.jpg",
-    },
-    {
-      title: "Google Nest Hub",
-      price: "$89",
-      image: "https://fdn2.gsmarena.com/vv/pics/google/google-nest-hub-1.jpg",
-    },
-    ],
-  
-    deals: [
+  ],
+  deals: [
     {
       title: "HP Pavilion (Deal)",
       price: "$599",
       oldPrice: "$799",
-      image: "https://fdn2.gsmarena.com/vv/pics/hp/hp-pavilion-deal-1.jpg",
+      image: "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06574417.png",
     },
     {
       title: "Beats Studio 3 (Deal)",
       price: "$199",
       oldPrice: "$349",
-      image: "https://fdn2.gsmarena.com/vv/pics/beats/beats-studio-3-deal-1.jpg",
+      image: "https://www.beatsbydre.com/content/dam/beats/web/product/headphones/studio3-wireless/global/Studio3-Black-1.png",
     },
     {
       title: "Lenovo IdeaPad 3 (Deal)",
       price: "$449",
       oldPrice: "$599",
-      image: "https://fdn2.gsmarena.com/vv/pics/lenovo/lenovo-ideapad-3-deal-1.jpg",
+      image: "https://www.lenovo.com/medias/lenovo-laptop-ideapad-3-15-intel-subseries-hero.png?context=bWFzdGVyfHJvb3R8MTA3NDk3fGltYWdlL3BuZ3xoYjIvaDg3LzE0MzY1NjQxNzYyNTI2LnBuZ3w1YjU3YjYzZWI1YjY1YjY3N2Y3ZGU0ZDA1ZTU2ZDY1Y2Q2YzM1YjE1N2U4YjQ2YjYxYjYzZTYwYjNlY2I2YjE2",
     },
     {
       title: "Samsung Galaxy Buds Pro (Deal)",
       price: "$129",
       oldPrice: "$199",
-      image: "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-buds-pro-deal-1.jpg",
+      image: "https://images.samsung.com/is/image/samsung/p6pim/levant/galaxy-buds-pro-sm-r190nzkamea/gallery/levant-galaxy-buds-pro-sm-r190nzkamea-368303-sm-r190nzkamea-368303-01-frontblack-368303?$720_576_PNG$",
     },
     {
       title: "Dell Inspiron 15 (Deal)",
       price: "$699",
       oldPrice: "$899",
-      image: "https://fdn2.gsmarena.com/vv/pics/dell/dell-inspiron-15-deal-1.jpg",
+      image: "https://i.dell.com/sites/imagecontent/products/PublishingImages/inspiron-15-5502-laptop/spi/ng/notebook-inspiron-15-5502-campaign-hero-504x350-ng.psd",
     },
-    {
-      title: "Apple Watch Series 7 (Deal)",
-      price: "$379",
-      oldPrice: "$499",
-      image: "https://fdn2.gsmarena.com/vv/pics/apple/apple-watch-series-7-deal-1.jpg",
-    },
-    {
-      title: "Asus ROG Strix G15 (Deal)",
-      price: "$1,099",
-      oldPrice: "$1,399",
-      image: "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-strix-g15-deal-1.jpg",
-    },
-    {
-      title: "Sony WF-1000XM4 Earbuds (Deal)",
-      price: "$179",
-      oldPrice: "$279",
-      image: "https://fdn2.gsmarena.com/vv/pics/sony/sony-wf-1000xm4-deal-1.jpg",
-    },
-    {
-      title: "Microsoft Surface Pro 7 (Deal)",
-      price: "$749",
-      oldPrice: "$999",
-      image: "https://fdn2.gsmarena.com/vv/pics/microsoft/microsoft-surface-pro-7-deal-1.jpg",
-    },
-    {
-      title: "JBL Flip 5 Speaker (Deal)",
-      price: "$89",
-      oldPrice: "$119",
-      image: "https://fdn2.gsmarena.com/vv/pics/jbl/jbl-flip-5-deal-1.jpg",
-    },
-  ]
-  };
+  ],
+};

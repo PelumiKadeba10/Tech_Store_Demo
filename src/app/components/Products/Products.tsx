@@ -11,6 +11,20 @@ import AccessoryCard from "./AccessoryCard";
 import DealCard from "./DealCard";
 import { productsData } from "./testData";
 
+// Define a Product interface to replace 'any'
+interface Product {
+  title: string;
+  price: string;
+  image: string;
+  oldPrice?: string;
+  [key: string]: any; // Allow for other properties that might exist
+}
+
+// Define an interface for the productsData
+interface ProductsData {
+  [category: string]: Product[];
+}
+
 interface ProductsProps {
   category: string;
 }
@@ -18,7 +32,7 @@ interface ProductsProps {
 export default function Products({ category }: ProductsProps) {
   const products = productsData[category] || [];
 
-  const getCard = (product: any, index: number) => {
+  const getCard = (product: Product, index: number) => {
     const props = {
       title: product.title,
       price: product.price,
