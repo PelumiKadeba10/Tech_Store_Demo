@@ -12,11 +12,11 @@ export default function Hero() {
       <div className="absolute inset-0 w-full h-full overflow-hidden">
       <Swiper
         modules={[Autoplay]}
-        autoplay={{ delay: 3000, disableOnInteraction: false }}
+        autoplay={{ delay: 2000, disableOnInteraction: false }}
         loop
         className="w-full h-full"
       >
-        <SwiperSlide>
+        {/* <SwiperSlide>
         <Image
           src="/assets/hero1.jpg" // Image inside the 'public' folder
           alt="Tech 1"
@@ -24,11 +24,29 @@ export default function Hero() {
           height={600} // Optional: set height
           className="w-full h-full object-cover"
         />
+        </SwiperSlide> */}
+      <SwiperSlide>
+        <Image
+          src="/assets/hero3.jpeg" // Image inside the 'public' folder
+          alt="Tech 3"
+          width={1000} // Optional: set width
+          height={600} // Optional: set height
+          className="w-full h-full object-cover"
+        />
       </SwiperSlide>
       <SwiperSlide>
         <Image
-          src="/assets/hero2.jpg" // Image inside the 'public' folder
-          alt="Tech 2"
+          src="/assets/hero5.jpg" // Image inside the 'public' folder
+          alt="Tech 5"
+          width={1000} // Optional: set width
+          height={600} // Optional: set height
+          className="w-full h-full object-cover"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Image
+          src="/assets/hero4.jpg" // Image inside the 'public' folder
+          alt="Tech 4"
           width={1000} // Optional: set width
           height={600} // Optional: set height
           className="w-full h-full object-cover"
