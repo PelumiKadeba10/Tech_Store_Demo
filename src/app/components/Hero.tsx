@@ -56,13 +56,13 @@ export default function Hero() {
       </div>
 
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-black/60 z-10" />
+      <div className="absolute inset-0 bg-black/55 z-10" />
 
       {/* Foreground Text */}
       <div className="relative z-20 flex items-center justify-center h-full text-center px-4">
         <div>
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Upgrade Your Tech Life</h1>
-          <p className="text-lg md:text-xl mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">Upgrade Your Tech Life Now</h1>
+          <p className="text-lg md:text-xl mb-12">
             Discover the latest gadgets, laptops, and accessories at unbeatable prices.
           </p>
           <div className="flex justify-center gap-4 flex-wrap">
