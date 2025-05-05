@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { FaLaptop, FaHeadphones, FaMobileAlt, } from "react-icons/fa";
 import { GiReceiveMoney } from "react-icons/gi";
 

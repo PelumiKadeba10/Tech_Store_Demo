@@ -6,49 +6,49 @@ export const productsData: Record<
     {
       title: "iPhone 14 Pro",
       price: "$999",
-      image: "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-1.jpg",
+      image: "https://www.apple.com/v/iphone-14-pro/b/images/overview/hero/hero_static__d4q2z6w5v5yi_large.jpg",
     },
     {
       title: "Samsung Galaxy S22",
       price: "$849",
-      image: "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s22-5g-1.jpg",
+      image: "https://www.samsung.com/etc/designs/smg/global/imgs/support/cont/2022/galaxy-s22/galaxy-s22-hero.jpg",
     },
     {
       title: "Google Pixel 7",
       price: "$599",
-      image: "https://m.media-amazon.com/images/I/51f4A6Tr8zL._AC_SR1000,1000_.jpg",
+      image: "https://store.google.com/intl/en-us/product/pixel_7/images/pixel_7_hero.png",
     },
     {
       title: "OnePlus 10 Pro",
       price: "$899",
-      image: "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-10-pro-1.jpg",
+      image: "https://www.oneplus.com/content/dam/o2/oneplus-10-pro/oneplus-10-pro-hero.png",
     },
     {
       title: "Xiaomi Mi 11",
       price: "$749",
-      image: "https://images-cdn.ubuy.co.in/63b04c4f26f7ee36833ef202-xiaomi-mi-11-5g-128gb-8gb-ram-china.jpg",
+      image: "https://www.mi.com/global/img/mi11/mi11_hero.png",
     },
   ],
   laptops: [
     {
       title: "MacBook Air M2",
       price: "$1,199",
-      image: "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/46/2679312/2.jpg?4011",
+      image: "https://www.apple.com/v/macbook-air-m2/b/images/overview/hero/hero_static__d4q2z6w5v5yi_large.jpg",
     },
     {
       title: "Dell XPS 13",
       price: "$999",
-      image: "https://m.media-amazon.com/images/I/710EGJBdIML._AC_SL1500_.jpg",
+      image: "https://www.dell.com/sites/csimages/Merchandizing_Imagery/all/xps-13-9305-laptop-hero.png",
     },
     {
       title: "HP Spectre x360",
       price: "$1,299",
-      image: "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08393284.png",
+      image: "https://www.hp.com/us-en/shop/tech-takes/wp-content/uploads/2021/03/HP-Spectre-x360-14-Intel-11th-Gen-Processor-hero.png",
     },
     {
       title: "Lenovo ThinkPad X1 Carbon",
       price: "$1,499",
-      image: "https://www.lenovo.com/medias/lenovo-laptop-thinkpad-x1-carbon-gen-9-subseries-hero.png?context=bWFzdGVyfHJvb3R8MTY0NzQ3fGltYWdlL3BuZ3xoYjAvaDg3LzE0MzE3NjYxNjYyNDMwLnBuZ3w1OGE1ZGIwYjA3YjE2YjI4ZGM1YjYxZTU3YjA2YjM2YjYzYjM1YjY5YjY4YzY0ZGMzYjU5YjU3YzQ4YjY0YjY3",
+      image: "https://www.lenovo.com/medias/lenovo-laptop-thinkpad-x1-carbon-gen-9-subseries-hero.png",
     },
     {
       title: "Asus ZenBook 14",
@@ -100,7 +100,7 @@ export const productsData: Record<
       title: "Lenovo IdeaPad 3 (Deal)",
       price: "$449",
       oldPrice: "$599",
-      image: "https://www.lenovo.com/medias/lenovo-laptop-ideapad-3-15-intel-subseries-hero.png?context=bWFzdGVyfHJvb3R8MTA3NDk3fGltYWdlL3BuZ3xoYjIvaDg3LzE0MzY1NjQxNzYyNTI2LnBuZ3w1YjU3YjYzZWI1YjY1YjY3N2Y3ZGU0ZDA1ZTU2ZDY1Y2Q2YzM1YjE1N2U4YjQ2YjYxYjYzZTYwYjNlY2I2YjE2",
+      image: "https://www.lenovo.com/medias/lenovo-laptop-ideapad-3-15-intel-subseries-hero.png",
     },
     {
       title: "Samsung Galaxy Buds Pro (Deal)",

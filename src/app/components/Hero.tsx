@@ -2,6 +2,7 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import Image from 'next/image';
 import "swiper/css";
 
 export default function Hero() {
@@ -16,19 +17,23 @@ export default function Hero() {
         className="w-full h-full"
       >
         <SwiperSlide>
-          <img
-            src="/assets/hero1.jpg"
-            alt="Tech 1"
-            className="w-full h-full object-cover"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7"
-            alt="Tech 2"
-            className="w-full h-full object-cover"
-          />
-        </SwiperSlide>
+        <Image
+          src="/assets/hero1.jpg" // Image inside the 'public' folder
+          alt="Tech 1"
+          width={1000} // Optional: set width
+          height={600} // Optional: set height
+          className="w-full h-full object-cover"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Image
+          src="/assets/hero2.jpg" // Image inside the 'public' folder
+          alt="Tech 2"
+          width={1000} // Optional: set width
+          height={600} // Optional: set height
+          className="w-full h-full object-cover"
+        />
+      </SwiperSlide>
       </Swiper>
       </div>
 

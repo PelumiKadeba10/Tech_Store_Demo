@@ -17,13 +17,14 @@ interface Product {
   price: string;
   image: string;
   oldPrice?: string;
-  [key: string]: any; // Allow for other properties that might exist
+  [key: string]: string | undefined | Record<string, unknown>; // This allows additional properties but keeps them type-safe
 }
 
+
 // Define an interface for the productsData
-interface ProductsData {
-  [category: string]: Product[];
-}
+// interface ProductsData {
+//   [category: string]: Product[];
+// }
 
 interface ProductsProps {
   category: string;
