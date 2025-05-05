@@ -6,6 +6,7 @@ import NavLinks from "./NavLinks";
 import NavIcons from "./NavIcons";
 import MobileMenu from "./MobileMenu";
 
+
 export default function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => setMenuOpen(!menuOpen);

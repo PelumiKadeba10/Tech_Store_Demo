@@ -46,7 +46,7 @@ export default function Footer() {
           <p className="mb-4">
             Subscribe to our newsletter for the latest updates, deals, and offers.
           </p>
-          <form action="#" method="POST" className="flex flex-col sm:flex-row justify-center items-center">
+          <form action="#" method="POST" className="flex flex sm:flex-row justify-center items-center">
             <input
               type="email"
               placeholder="Enter your email"
@@ -54,7 +54,7 @@ export default function Footer() {
             />
             <button
               type="submit"
-              className="text-white p-2 rounded-r-md mt-2 sm:mt-0 sm:ml-2 hover:bg-blue-700 transition duration-300 ease-in-out"
+              className="text-white p-2 rounded-r-md sm:mt-0 hover:bg-blue-800 transition duration-300 ease-in-out"
               style={{ backgroundColor: "#3b82f6" }}
             >
               Subscribe
