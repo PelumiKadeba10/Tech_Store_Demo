@@ -25,13 +25,13 @@ export default function BaseProductCard({
 
   return (
     <div className="bg-white p-4 rounded-lg shadow hover:shadow-md transition w-full max-w-sm mx-auto">
-      <div className="relative h-48 mb-3 ">
+      <div className="relative w-full h-40 mb-3 flex items-center justify-center">
         <Image
           src={image}
           alt={title}
-          fill
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          className="object-cover rounded"
+          width={150}
+          height={150}
+          className="object-contain"
         />
       </div>
       <h3 className="text-lg font-semibold mb-1">{title}</h3>
