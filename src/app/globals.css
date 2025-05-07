@@ -13,4 +13,21 @@ html {
     margin: 0;
     padding: 0;
   }
+
+  .custom-swiper .swiper-button-next,
+.custom-swiper .swiper-button-prev {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 40px;
+}
+
+.custom-swiper .swiper-button-prev {
+  left: px; /* moves it outside the swiper container */
+}
+
+.custom-swiper .swiper-button-next {
+  right: px; /* same here */
+}
+
   

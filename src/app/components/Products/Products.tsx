@@ -69,7 +69,7 @@ export default function Products({ category }: ProductsProps) {
           1024: { slidesPerView: 4 },
         }}
         modules={[Navigation, Pagination]}
-        className="w-full h-[400px]"
+        className="custom-swiper w-full h-[400px] relative"
       >
         {products.map((product, index) => (
           <SwiperSlide key={index}>{getCard(product, index)}</SwiperSlide>

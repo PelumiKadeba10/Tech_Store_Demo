@@ -13,7 +13,7 @@ export default function NavBar() {
 
   return (
     <div className="w-full bg-white sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div className="w-full px-4 md:px-4 lg:px-8 py-3 flex items-center justify-between">
         <Logo />
         <NavLinks />
         <NavIcons menuOpen={menuOpen} toggleMenu={toggleMenu} />
@@ -21,6 +21,6 @@ export default function NavBar() {
       <div className="text-center items-center justify-center md:flex bg-white/20 border-t border-gray-200">
         <MobileMenu open={menuOpen} />
       </div>
-    </div>
+   </div>
   );
 }
