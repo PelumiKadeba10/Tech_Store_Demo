@@ -76,7 +76,7 @@ export default function Footer() {
       {/* Footer Bottom */}
       <div className="py-4 mt-10 text-center" style={{ backgroundColor: "#0f172a" }}>
         <p className="text-sm" style={{ color: "#cbd5e1" }}>
-          &copy; 2025 Kadeba Oluwapelumi. All rights reserved.
+          &copy; 2025 PelumiKadeba10@github. All rights reserved.
         </p>
       </div>
     </footer>
